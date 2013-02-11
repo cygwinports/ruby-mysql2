@@ -1,0 +1,8 @@
+inherit rubygem
+
+NAME="ruby-mysql2"
+VERSION=0.3.11
+RELEASE=1
+CATEGORY="Ruby"
+SUMMARY="Ruby MySQL extension"
+DESCRIPTION="A simple, fast Mysql library for Ruby, binding to libmysql."
