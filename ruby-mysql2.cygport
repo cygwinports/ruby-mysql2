@@ -1,7 +1,7 @@
 inherit rubygem
 
 NAME="ruby-mysql2"
-VERSION=0.3.11
+VERSION=0.3.13
 RELEASE=1
 CATEGORY="Ruby"
 SUMMARY="Ruby MySQL extension"
