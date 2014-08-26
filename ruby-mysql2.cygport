@@ -1,8 +1,13 @@
 inherit rubygem
 
 NAME="ruby-mysql2"
-VERSION=0.3.13
+VERSION=0.3.16
 RELEASE=1
 CATEGORY="Ruby"
 SUMMARY="Ruby MySQL extension"
 DESCRIPTION="A simple, fast Mysql library for Ruby, binding to libmysql."
+
+PKG_NAMES="${NAME} ${NAME}-doc"
+ruby_mysql2_CONTENTS="--exclude=examples ${RUBYGEM_EXTDIR#/} ${RUBYGEM_INSTDIR#/} ${RUBYGEM_SPEC#/}"
+ruby_mysql2_doc_CONTENTS="${RUBYGEM_DOCDIR#/} ${RUBYGEM_INSTDIR#/}/examples/"
+
